@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_menu"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/ic_fav_menu"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@+id/space"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notif_menu"
+        android:title="Notificaciones" />
+
+    <item
+        android:id="@+id/navigation_inbox"
+        android:icon="@drawable/ic_mail_menu"
+        android:title="Mensajes" />
+</menu>

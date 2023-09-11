@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.amaurypm.bottomnavdm.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.amaurypm.bottomnavdm.FavFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/navigation_inbox"
+        android:name="com.amaurypm.bottomnavdm.MailFragment"
+        android:label="Bandeja de entrada"
+        tools:layout="@layout/fragment_mail" />
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.amaurypm.bottomnavdm.NotifFragment"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_notif" />
+</navigation>
